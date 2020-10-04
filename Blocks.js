@@ -453,7 +453,6 @@ const LibraryCreator = {
       },
       class: 'text',
       func: async (sprite, script) => {
-        if (confirm(`"올리기(POST) 요청" 을 허용하시겠습니까?\n내용: ${script.getValue('DATA', script)}`)) {
           let res = await fetch(script.getValue('APIURL', script), {
             method: 'POST',
             body: script.getValue('DATA', script),
@@ -462,7 +461,6 @@ const LibraryCreator = {
             }
           })
           blockPOST = await res.json()
-        }
         return script.callReturn()
       },
     },
@@ -1260,7 +1258,7 @@ const LibraryCreator = {
       def: [
         {
           type: 'text',
-          params: ['https://www.thoratica.net']
+          params: ['https://79187959.ml']
         },
         null
       ],
@@ -1269,9 +1267,7 @@ const LibraryCreator = {
       },
       class: 'text',
       func: async (sprite, script) => {
-        if (confirm(`"새 탭에서 웹사이트 열기" 를 허용하시겠습니까?\nURL: ${script.getValue('URL', script)}`)) {
           window.open(`https://block.blokode.xyz/urlCheck.html?goto=${script.getValue('URL', script)}`, '_blank').focus()
-        }
         return script.callReturn()
       },
     },
