@@ -1,1 +1,1 @@
-# $.get('https://github.com/sungho0205/block/Blocks.js')
+# import('https://sungho0205.github.io/block/Blocks.js')
