@@ -358,7 +358,7 @@ const LibraryCreator = {
         // 카테고리 이름 적용
         $(`#entryCategory${category}`).append(text)
       }
-      console.log('%cEntBlocks v2.2%c\n\nEntBlocks는 MIT License를 따릅니다.\n%c\n공식 블로그:\n%chttps://entblocks.tistory.com', 'background-color: #007bff; color: #e9ecef; padding: 0 3rem; border-radius: 1.2rem 0; font-family: sans-serif; font-size: 2.5rem;', 'font-family: sans-serif; font-size: 1.2rem;', 'font-family: sans-serif; font-size: 1.2rem;', 'font-family: sans-serif; font-size: 1.1rem; color: #007bff;')
+      console.log('%cEntrlBlocks v2.2%c\n\n', 'background-color:  #ff0000; color: #ff0000; padding: 0 3rem; border-radius: 1.2rem 0; font-family: sans-serif; font-size: 2.5rem;', 'font-family: sans-serif; font-size: 1.2rem;', 'font-family: sans-serif; font-size: 1.2rem;', 'font-family: sans-serif; font-size: 1.1rem; color: #007bff;')
     }
   }
   let blockPOST
@@ -388,8 +388,8 @@ const LibraryCreator = {
       template: '%1 가져오기 (GET)',
       skeleton: 'basic_string_field',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+          default: '#ff0000',
+          darken: '#ff0000'
       },
       params: [
         {
@@ -418,8 +418,8 @@ const LibraryCreator = {
       template: '%1에 %2 올리기 (POST)%3',
       skeleton: 'basic',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -428,7 +428,7 @@ const LibraryCreator = {
         },
         {
           type: 'Block',
-          accept: 'string'
+          accept: '#ff0000'
         },
         {
           type: 'Indicator',
@@ -471,8 +471,8 @@ const LibraryCreator = {
       template: '올리기 응답',
       skeleton: 'basic_string_field',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [],
       def: [],
@@ -508,8 +508,8 @@ const LibraryCreator = {
       template: '배열 %1 의 %2 번째 항목',
       skeleton: 'basic_string_field',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -518,7 +518,7 @@ const LibraryCreator = {
         },
         {
           type: 'Block',
-          accept: 'string'
+          accept: '#ff0000'
         }
       ],
       def: [
@@ -547,8 +547,8 @@ const LibraryCreator = {
       template: '배열 %1 의 항목 수',
       skeleton: 'basic_string_field',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -597,8 +597,8 @@ const LibraryCreator = {
       template: 'JSON %1 의 %2 항목',
       skeleton: 'basic_string_field',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -636,8 +636,8 @@ const LibraryCreator = {
       template: 'JSON %1 의 항목 수',
       skeleton: 'basic_string_field',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -686,8 +686,8 @@ const LibraryCreator = {
       template: '%1 제목과 %2 내용의 %3 토스트를 %4 출력하기%5',
       skeleton: 'basic',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -782,8 +782,8 @@ const LibraryCreator = {
       template: '%1 제목과 %2 내용의 %3 테마 팝업 출력하기%4',
       skeleton: 'basic',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -875,8 +875,8 @@ const LibraryCreator = {
       template: '%1 내용을 브라우저 콘솔에 %2 하기%3',
       skeleton: 'basic',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -924,8 +924,8 @@ const LibraryCreator = {
       template: '브라우저 콘솔 모두 지우기%1',
       skeleton: 'basic',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -949,8 +949,8 @@ const LibraryCreator = {
       template: '%1 내용을 엔트리 콘솔에 출력하기%2',
       skeleton: 'basic',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -984,8 +984,8 @@ const LibraryCreator = {
       template: '엔트리 콘솔 모두 지우기%1',
       skeleton: 'basic',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -1030,8 +1030,8 @@ const LibraryCreator = {
       template: '부스트 모드가 켜져 있는가?',
       skeleton: 'basic_boolean_field',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [],
       def: [],
@@ -1046,8 +1046,8 @@ const LibraryCreator = {
       template: 'JS 변수 %1의 값이 정의되지 않았는가?',
       skeleton: 'basic_boolean_field',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -1074,8 +1074,8 @@ const LibraryCreator = {
       template: '엔트리 변수 %1의 값이 정의되지 않았는가?',
       skeleton: 'basic_boolean_field',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -1123,8 +1123,8 @@ const LibraryCreator = {
       template: '브라우저 이름',
       skeleton: 'basic_string_field',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [],
       def: [],
@@ -1160,8 +1160,8 @@ const LibraryCreator = {
       template: '변수 %1 값을 %2 으로 변경%3',
       skeleton: 'basic',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -1204,8 +1204,8 @@ const LibraryCreator = {
       template: '이 작품 좋아요 목록',
       skeleton: 'basic_string_field',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [],
       def: [],
@@ -1243,8 +1243,8 @@ const LibraryCreator = {
       template: '새 탭에서 웹사이트 %1 열기%2',
       skeleton: 'basic',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
@@ -1301,8 +1301,8 @@ const LibraryCreator = {
       template: '제목 %1 내용 %2 JSON',
       skeleton: 'basic_string_field',
       color: {
-        default: '#007bff',
-        darken: '#006ce0'
+        default: '#ff0000',
+        darken: '#ff0000'
       },
       params: [
         {
