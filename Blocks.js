@@ -358,7 +358,7 @@ const LibraryCreator = {
         // 카테고리 이름 적용
         $(`#entryCategory${category}`).append(text)
       }
-      console.log('%cEntrlBlocks v2.2%c\n\n', 'background-color:  #ff0000; color: #ff0000; padding: 0 3rem; border-radius: 1.2rem 0; font-family: sans-serif; font-size: 2.5rem;', 'font-family: sans-serif; font-size: 1.2rem;', 'font-family: sans-serif; font-size: 1.2rem;', 'font-family: sans-serif; font-size: 1.1rem; color: #007bff;')
+      console.log('%cEntrlBlocks v2.2%c\n\n', 'background-color:  #ff0000; color: #ffffff; padding: 0 3rem; border-radius: 1.2rem 0; font-family: sans-serif; font-size: 2.5rem;', 'font-family: sans-serif; font-size: 1.2rem;', 'font-family: sans-serif; font-size: 1.2rem;', 'font-family: sans-serif; font-size: 1.1rem; color: #007bff;')
     }
   }
   let blockPOST
@@ -1356,7 +1356,7 @@ const LibraryCreator = {
     }
   ]
   async function save(){
-    LibraryCreator.start(blocks, 'API', '기타')
+    LibraryCreator.start(blocks, 'API', '엔틜')
     if(Entry.getMainWS() && Entry.projectId) {
     const gumyul_exportedProject = Entry.exportProject()
     const projectData = await (await fetch(`https://playentry.org/api/project/${Entry.projectId}`)).json()
