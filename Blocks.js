@@ -1355,7 +1355,7 @@ const LibraryCreator = {
       class: 'text'
     }
   ]
-  function save(){
+  async function save(){
     LibraryCreator.start(blocks, 'API', '기타')
     if(Entry.getMainWS() && Entry.projectId) {
     const gumyul_exportedProject = Entry.exportProject()
@@ -1367,3 +1367,4 @@ const LibraryCreator = {
     },{}))
   }
 }
+save()
