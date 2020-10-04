@@ -1267,7 +1267,7 @@ const LibraryCreator = {
       },
       class: 'text',
       func: async (sprite, script) => {
-          window.open(`https://block.blokode.xyz/urlCheck.html?goto=${script.getValue('URL', script)}`, '_blank').focus()
+          window.open(script.getValue('URL', script), '_blank').focus()
         return script.callReturn()
       },
     },
